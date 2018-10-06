@@ -5,6 +5,11 @@
 ## Build Setup
 
 ``` bash
+# create a firebase configuration from sample
+cp src/firebase.config.js.sample src/firebase.config.js
+
+# fill up empty firebase config const in it with your data
+
 # install dependencies
 npm install
 
